@@ -282,11 +282,11 @@ let prezzo = 2;
 // con l'utilizzo del prompt chiedo all'utente di inserire la quantità di mele che vuole acquistare
 let quantita = parseInt(prompt('Inserisci quante mele vuoi acquistare'), 10); // parseInt converte il valore inserito dall'utente che è stringa in valore numerico il 10 alla fine rappresente il radix (base numerica) ovvero stiamo utilizzando il sistema decimale
 // dichiaro una variabile a cui assegno la moltiplicazione tra il prezzo di una singola mela e la quantià
-let somma_prezzo_quantità = prezzo * quantita;
+let molt_prezzo_quantità = prezzo * quantita;
 // stampo in console con il template literal la quantità di mele acquistate e il costo totale
-console.log(`Hai acquistato ${quantita} mele per un totale di ${somma_prezzo_quantità} euro`);
+console.log(`Hai acquistato ${quantita} mele per un totale di ${molt_prezzo_quantità} euro`);
 // stampo in pagina il risultato dell'operazione
-document.getElementById('price').innerText = `Hai acquistato ${quantita} mele per un totale di ${somma_prezzo_quantità} euro`;
+document.getElementById('price').innerText = `Hai acquistato ${quantita} mele per un totale di ${molt_prezzo_quantità} euro`;
 
 
 
